@@ -46,6 +46,7 @@ const ThoughtSchema = new Schema(
             type: String,
             required: true
         },
+
         //use ReactionSchema to validate data for a reaction
         reactions: [ReactionSchema]
     },
@@ -63,3 +64,5 @@ ThoughtSchema.virtual('reactionCount').get(function() {
 });
 
 const Thought = model('Thought', ThoughtSchema);
+
+module.exports = Thought;
