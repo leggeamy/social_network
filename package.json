@@ -1,0 +1,23 @@
+{
+  "name": "social_network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leggeamy/social_network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leggeamy/social_network/issues"
+  },
+  "homepage": "https://github.com/leggeamy/social_network#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12"
+  }
+}
