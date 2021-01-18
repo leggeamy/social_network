@@ -58,7 +58,22 @@ deleteUser({ params }, res) {
     User.findOneAndDelete({ _id: params.id })
     .then(dbUserData => res.json(dbUserData))
     .catch(err => res.json(err));
+},
+
+//create friend
+createFriend({ body }, res) {
+    Friend.create(body)
+    .then(dbUserData => res.json(dbUserData))
+    .catch(err => res.json(err));
+},
+
+// delete friend
+deleteFriend({ params }, res) {
+    Friend.findOneAndDelete({ _id: params.id })
+    .then(dbUserData => res.json(dbUserData))
+    .catch(err => res.json(err));
 }
+
 };
 
 module.exports = userController;
