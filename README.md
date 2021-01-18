@@ -24,7 +24,7 @@ npm i
 
 Here is a link to a walkthrough video showing the API routes being tested in Insomnia Core:
 
-https://drive.google.com/file/d/1wA-rPQEhf4W7hKZqtFdjBPlQR3O5SEjA/view
+https://drive.google.com/file/d/1wA-rPQEhf4W7hKZqtFdjBPlQR3O5SEjA/view?usp=sharing
 
 
 
